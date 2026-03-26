@@ -1,0 +1,51 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.defaultFormatter": "vscode.json-language-features",
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.showWords": false,
+  "editor.suggest.showSnippets": false,
+  "editor.snippetSuggestions": "none",
+  "editor.parameterHints.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "[swift]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vknabel.vscode-swiftformat",
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off"
+  }
+}
