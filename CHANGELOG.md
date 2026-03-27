@@ -16,6 +16,7 @@ All notable changes to this project will be documented in this file.
 - Code blocks for solution snippets and interactive demos include a **Copy** control (`site/components/CopyCodeButton.tsx`, `site/components/SnippetTabs.tsx`, `site/components/InteractiveConcatenationDemo.tsx`, `site/components/visualizers/TwoSumVisualizer.tsx`, `site/app/globals.css`).
 
 ### Added
+- Root [`.gitignore`](.gitignore) ignores [`site/.next/`](site/.next/) so Next.js dev/build artifacts are not committed.
 - Hero search field cycles typewriter-style placeholder suggestions until focus or typing (`site/components/SearchBarInput.tsx`, `site/components/SearchBar.tsx`, `site/components/home/HeroSearchSection.tsx`).
 - `prompt.md` for every problem under `problems/*` (including `add-two-numbers`, `concatenation-of-array`, `search-suggestions-system`; `two-sum` already had one).
 - `meta.yaml` for `problems/add-two-numbers/` so taxonomy and copy match the linked-list addition prompt.
