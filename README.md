@@ -1,8 +1,8 @@
-# LeetCode Practice Repo (Multi-Language)
+# LeetCode Repo (Multi-Language)
 
 This repo provides LeetCode **problems**, **solutions**, and **examples of how LeetCode-style code can be used in real-life situations**.
 
-It is organized for multiple languages (not just Swift), so each problem can be solved side-by-side in the languages you want to practice.
+It is organized for multiple languages (not just Swift), so each problem can be solved side-by-side in the languages you want to use.
 
 ## Repository Structure
 
@@ -38,8 +38,14 @@ Run a solution:
 ./scripts/run.sh two-sum javascript
 ```
 
+Run tests for a problem:
+
+```bash
+./scripts/test.sh concatenation-of-array
+```
+
 ## Why this repo
 
-- Practice core algorithm patterns from LeetCode.
+- Build and compare core algorithm patterns from LeetCode.
 - Keep clean, comparable implementations across languages.
-- Bridge interview-style problems to practical coding use cases.
+- Show practical ways these patterns can be applied in real code.

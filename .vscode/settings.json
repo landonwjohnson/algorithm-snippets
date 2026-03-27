@@ -7,7 +7,11 @@
   "editor.defaultFormatter": "vscode.json-language-features",
   "editor.inlineSuggest.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.wordBasedSuggestions": "off",
   "editor.suggest.showWords": false,
   "editor.suggest.showSnippets": false,
@@ -20,7 +24,11 @@
     "editor.formatOnPaste": true,
     "editor.defaultFormatter": "vknabel.vscode-swiftformat",
     "editor.inlineSuggest.enabled": false,
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.suggestOnTriggerCharacters": false,
     "editor.wordBasedSuggestions": "off"
   },
@@ -28,7 +36,11 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.inlineSuggest.enabled": false,
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.suggestOnTriggerCharacters": false,
     "editor.wordBasedSuggestions": "off"
   },
@@ -36,7 +48,11 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.inlineSuggest.enabled": false,
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.suggestOnTriggerCharacters": false,
     "editor.wordBasedSuggestions": "off"
   },
@@ -44,7 +60,11 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.inlineSuggest.enabled": false,
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.suggestOnTriggerCharacters": false,
     "editor.wordBasedSuggestions": "off"
   }
