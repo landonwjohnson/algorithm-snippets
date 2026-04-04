@@ -12,6 +12,9 @@ site/out/
 site/.env*.local
 *.log
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 # Playwright (under site/ when run locally)
 site/test-results/
 site/playwright-report/

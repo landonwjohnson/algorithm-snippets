@@ -12,8 +12,9 @@ Interactive algorithm reference: patterns, real-world features, and multi-langua
 - Concatenation Of Array: https://landonjohnson.github.io/problems/concatenation-of-array
 - Longest Palindromic Substring: https://landonjohnson.github.io/problems/longest-palindromic-substring
 - Longest Substring Without Repeating Characters: https://landonjohnson.github.io/problems/longest-substring-without-repeating-characters
-- Median Of Two Sorted Arrays: https://landonjohnson.github.io/problems/median-of-two-sorted-arrays
+- Median of Two Sorted Arrays: https://landonjohnson.github.io/problems/median-of-two-sorted-arrays
 - Palindrome Number: https://landonjohnson.github.io/problems/palindrome-number
-- Remove Deplicates From Sorted Array: https://landonjohnson.github.io/problems/remove-deplicates-from-sorted-array
+- Relative Ranks: https://landonjohnson.github.io/problems/relative-ranks
+- Remove Duplicates from Sorted Array: https://landonjohnson.github.io/problems/remove-deplicates-from-sorted-array
 - Search Suggestions System: https://landonjohnson.github.io/problems/search-suggestions-system
 - Two Sum: https://landonjohnson.github.io/problems/two-sum

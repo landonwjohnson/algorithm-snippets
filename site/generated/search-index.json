@@ -172,7 +172,7 @@
   },
   {
     "slug": "median-of-two-sorted-arrays",
-    "title": "Median Of Two Sorted Arrays",
+    "title": "Median of Two Sorted Arrays",
     "summary": "Solution walkthrough for median of two sorted arrays with code and practical use cases.",
     "questionTypes": [
       "Lookup / Frequency / Matching"
@@ -253,9 +253,9 @@
     "searchableText": "palindrome number solution walkthrough for palindrome number with code and practical use cases. lookup / frequency / matching hash map search suggestions frontend engineer backend engineer google frontend engineer backend engineer developer tools arrays resolve complementary value lookups in near real-time apis. detect matching pairs in transactional or telemetry streams. use hash-map pairing logic in data validation pipelines. you need fast lookup while iterating once. you are asked for indices, pairs, or direct matches."
   },
   {
-    "slug": "remove-deplicates-from-sorted-array",
-    "title": "Remove Deplicates From Sorted Array",
-    "summary": "Solution walkthrough for remove deplicates from sorted array with code and practical use cases.",
+    "slug": "relative-ranks",
+    "title": "Relative Ranks",
+    "summary": "Solution walkthrough for relative ranks with code and practical use cases.",
     "questionTypes": [
       "Lookup / Frequency / Matching"
     ],
@@ -291,7 +291,48 @@
       "You need fast lookup while iterating once.",
       "You are asked for indices, pairs, or direct matches."
     ],
-    "searchableText": "remove deplicates from sorted array solution walkthrough for remove deplicates from sorted array with code and practical use cases. lookup / frequency / matching hash map search suggestions frontend engineer backend engineer google frontend engineer backend engineer developer tools arrays resolve complementary value lookups in near real-time apis. detect matching pairs in transactional or telemetry streams. use hash-map pairing logic in data validation pipelines. you need fast lookup while iterating once. you are asked for indices, pairs, or direct matches."
+    "searchableText": "relative ranks solution walkthrough for relative ranks with code and practical use cases. lookup / frequency / matching hash map search suggestions frontend engineer backend engineer google frontend engineer backend engineer developer tools arrays resolve complementary value lookups in near real-time apis. detect matching pairs in transactional or telemetry streams. use hash-map pairing logic in data validation pipelines. you need fast lookup while iterating once. you are asked for indices, pairs, or direct matches."
+  },
+  {
+    "slug": "remove-deplicates-from-sorted-array",
+    "title": "Remove Duplicates from Sorted Array",
+    "summary": "Solution walkthrough for remove duplicates from sorted array with code and practical use cases.",
+    "questionTypes": [
+      "Lookup / Frequency / Matching"
+    ],
+    "patterns": [
+      "Hash Map"
+    ],
+    "features": [
+      "Search Suggestions"
+    ],
+    "careerPaths": [
+      "Frontend Engineer",
+      "Backend Engineer"
+    ],
+    "companies": [
+      "Google"
+    ],
+    "roles": [
+      "Frontend Engineer",
+      "Backend Engineer"
+    ],
+    "industries": [
+      "Developer Tools"
+    ],
+    "tags": [
+      "Arrays"
+    ],
+    "useCases": [
+      "Resolve complementary value lookups in near real-time APIs.",
+      "Detect matching pairs in transactional or telemetry streams.",
+      "Use hash-map pairing logic in data validation pipelines."
+    ],
+    "recognitionClues": [
+      "You need fast lookup while iterating once.",
+      "You are asked for indices, pairs, or direct matches."
+    ],
+    "searchableText": "remove duplicates from sorted array solution walkthrough for remove duplicates from sorted array with code and practical use cases. lookup / frequency / matching hash map search suggestions frontend engineer backend engineer google frontend engineer backend engineer developer tools arrays resolve complementary value lookups in near real-time apis. detect matching pairs in transactional or telemetry streams. use hash-map pairing logic in data validation pipelines. you need fast lookup while iterating once. you are asked for indices, pairs, or direct matches."
   },
   {
     "slug": "search-suggestions-system",

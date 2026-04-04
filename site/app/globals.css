@@ -1189,6 +1189,49 @@ html.theme-light .theme-toggle-button:hover {
   border-color: #2c8ea7;
 }
 
+.relative-ranks-board {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.relative-ranks-row {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, 7.5rem) 1fr minmax(3rem, 4rem);
+  align-items: center;
+  gap: 0.65rem 0.85rem;
+  padding: 0.45rem 0.55rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(12, 22, 48, 0.55);
+  font-size: 0.95rem;
+}
+
+.relative-ranks-row:not(.relative-ranks-header) .relative-ranks-rank {
+  font-weight: 600;
+  color: #c8d7ff;
+}
+
+.relative-ranks-score {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+}
+
+.relative-ranks-header {
+  background: rgba(91, 109, 247, 0.12);
+  border-color: rgba(121, 225, 255, 0.28);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.relative-ranks-board--compact .relative-ranks-row {
+  grid-template-columns: 1fr minmax(3rem, 4rem);
+}
+
 code,
 pre {
   font-family:
