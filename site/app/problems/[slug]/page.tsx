@@ -11,6 +11,7 @@ import { RecognitionCluesPanel } from "@/components/RecognitionCluesPanel";
 import { RelatedProblems } from "@/components/RelatedProblems";
 import { SnippetTabs } from "@/components/SnippetTabs";
 import { UseCaseExample } from "@/components/UseCaseExample";
+import { VisualAlgorithmDemo } from "@/components/VisualAlgorithmDemo";
 import { getAllProblems, getProblemBySlug, getRelatedProblems, resolveLabels } from "@/lib/content";
 import { absoluteUrl, withBasePath } from "@/lib/seo-config";
 
@@ -139,6 +140,7 @@ export default async function ProblemDetailPage({ params }: { params: Promise<Pa
       </section>
       <SnippetTabs problem={problem} />
       {problem.slug === "concatenation-of-array" ? <InteractiveConcatenationDemo /> : null}
+      {problem.slug !== "concatenation-of-array" ? <VisualAlgorithmDemo slug={problem.slug} /> : null}
       <UseCaseExample points={problem.useCases} />
       <DemoIdeasPanel demoIdeas={problem.demoIdeas} />
       <MetadataSidebar

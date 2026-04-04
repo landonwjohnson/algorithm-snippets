@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 
 ### Changed
+- Site uses **Yarn** for installs: [`site/yarn.lock`](site/yarn.lock), [`site/package-lock.json`](site/package-lock.json) removed; [`.github/workflows/site-validation.yml`](.github/workflows/site-validation.yml) runs `yarn install --frozen-lockfile` with Node **22** and Yarn cache.
 - [`roadmap.md`](roadmap.md): roadmap tables link each **LeetCode Problem** (and AI **LeetCode Anchors**) to `https://leetcode.com/problems/<slug>/`.
 - Homepage cards match wireframe flow: career/problem mini-cards use a fixed icon slot and title + mono count only (description on `title` tooltip); feature cards use top row icon + `ALGOS` badge then left-aligned copy; list rows add useful accent bar, pattern `N USES`, and recent `+` chip ([`site/components/home/*`](site/components/home/), [`site/app/globals.css`](site/app/globals.css)).
 - [`site/next.config.mjs`](site/next.config.mjs) sets `outputFileTracingRoot` to this package so Next does not treat a parent-folder lockfile as the repo root (fixes flaky dev manifests / missing chunk paths).
@@ -25,6 +26,7 @@ All notable changes to this project will be documented in this file.
 - `meta.yaml` for `problems/add-two-numbers/` so taxonomy and copy match the linked-list addition prompt.
 
 ### Fixed
+- Added missing `prompt.md` for several listed problems so generated `problems.json` passes content shape tests (`longest-palindromic-substring`, `longest-substring-without-repeating-characters`, `median-of-two-sorted-arrays`, `palindrome-number`, `relative-ranks`, `remove-deplicates-from-sorted-array`).
 - Removed duplicate `problems/search-suggestions-system` vs `problems/search_suggestions_system` directories; canonical problem lives at `problems/search-suggestions-system/`.
 - `site/scripts/check-metadata.mjs` now matches generated `problems.json` (`tagIds`, non-empty `prompt`) and fails on duplicate slugs.
 - Multi-language LeetCode workspace structure under `problems/<slug>/<language>/`.
